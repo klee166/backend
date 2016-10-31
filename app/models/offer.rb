@@ -5,7 +5,7 @@ class Offer < ApplicationRecord
     @name, @numUsed, @maxUse = name, numUsed, maxUse
   end
 
-  def increaseUsed()
+  def increaseUsed
     numUsed += 1
   end
 end
